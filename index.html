@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario HTML </title>
+</head>
+
+<body>
+    <form action="">
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario" name="usuario">
+        
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        <br>
+        <label for="celular">Celular</label>
+        <input type="number" id="celular" name="celular" placeholder="85 99999-9999">
+
+        <label for="time">Horario desejada</label>
+        <input type="time" id="time" name="time">
+
+        <br>
+        <label for="seusite">Seu Site</label>
+        <input type="text" id="usuario" name="seusite">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" >
+        
+        <br>
+        <label for="data_nasc">Data de nascimento</label>
+        <input type="date" id="data_nasc" name="data_nasc">
+        
+        <label for="cor">Cor favorita </label>
+        <input type="color" id="cor" name="cor">
+        <br>
+        
+        <label for="text">Quantiade de filhos</label>
+        <input type="text" id="arquivo" name="text">
+    
+        <label for="barrinha">Peso</label>
+        <input type="range" id="barrinha" name="barrinha">
+        <br>
+
+        <label>Sexo</label>
+        <br>
+        <br>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label>
+        <br>
+        <input type="radio" id="feminino" name="sexo" value="feminino">
+        <label for="feminino">Feminino</label>
+        <br>
+
+        
+        
+
+        <label for="cidade">Estado</label>
+        <br>
+        <select name="cidade" id="cidade">
+           
+            <option value="SP">SP</option>
+            <option value="CE">CE</option>
+            <option value="MG">MG</option>
+            <option value="RJ">RJ</option>
+        </select>
+        <br>
+
+        <label for="comentario">Mensagem</label>
+        <br>
+        <textarea name="comentario" id="comentario" cols="19" rows="4"></textarea>
+
+
+
+
+        <br>
+        <button>Enviar</button>
+        <input type="reset" value="Redefenir">
+    </form>
+</body>
+
+</html>
